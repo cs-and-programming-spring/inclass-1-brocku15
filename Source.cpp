@@ -99,6 +99,7 @@ int main()
 
 	//Homework 3
 	//Create string to print letter K
+	//Extra credit for advanced code?
 	char string1[6] = { '*','*',' ',' ',' ','*' };
 	char string2[6] = { ' ',' ','*','*',' ','*' };
 	char string3[6] = { ' ',' ',' ',' ','*','*' };
