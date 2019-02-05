@@ -49,6 +49,8 @@ int main()
 	cout << " The conversion of millimeter from miles is = " << millimeter << "\n\n";
 	cout << "Program has ended" << endl;
 
+
+	//Homework 1
 	float celsius, fahrenheit;
 
 	//Display purpose of the program
@@ -67,6 +69,8 @@ int main()
 	cout << " The the temperature in fahrenheit is = " << fahrenheit << "\n\n";
 	cout << "Program has ended" << endl;
 
+
+	//Homework 2
 	float year, month, day, hour, minute, second;
 
 	//Display purpose of the program
@@ -92,32 +96,36 @@ int main()
 	cout << " your age in seconds is = " << second << "\n\n";
 	cout << "Program has ended" << endl;
 
+
+	//Homework 3
 	//Create string to print letter K
-	char string1[6] = { '*',' ',' ',' ','*','*' };
-	char string2[6] = { '*',' ','*','*',' ',' ' };
-	char string3[6] = { '*',' *',' ',' ',' ',' ' };
-	char string4[6] = { '*',' ','*',' ',' ',' ' };
-	char string5[6] = { '*',' ',' ','*','*',' ' };
+	char string1[6] = { '*','*',' ',' ',' ','*' };
+	char string2[6] = { ' ',' ','*','*',' ','*' };
+	char string3[6] = { ' ',' ',' ',' ','*','*' };
+	char string4[6] = { ' ',' ',' ','*',' ','*' };
+	char string5[6] = { ' ','*','*',' ',' ','*' };
 	char string6[6] = { '*',' ',' ',' ',' ','*' };
 
-	//Print letter K. Assistance from Stack Overflow
-	for (int i = 1 + 1; i <= 6; i--)
+	//Print letter K. A little assistance from Stack Overflow
+	std::cout << "\n";
+	for (int i = 6 - 1; i >= 0; i--)
 		cout << string1[i];
 	std::cout << "\n";
-	for (int i = 1 + 1; i <= 6; i--)
+	for (int i = 6 - 1; i >= 0; i--)
 		cout << string2[i];
 	std::cout << "\n";
-	for (int i = 1 + 1; i <= 6; i--)
+	for (int i = 6 - 1; i >= 0; i--)
 		cout << string3[i];
 	std::cout << "\n";
-	for (int i = 1 + 1; i <= 6; i--)
+	for (int i = 6 - 1; i >= 0; i--)
 		cout << string4[i];
 	std::cout << "\n";
-	for (int i = 1 + 1; i <= 6; i--)
+	for (int i = 6 - 1; i >= 0; i--)
 		cout << string5[i];
 	std::cout << "\n";
-	for (int i = 1 + 1; i <= 6; i--)
+	for (int i = 6 - 1; i >= 0; i--)
 		cout << string6[i];
+	std::cout << "\n";
 
 	//cout << string1[1] << endl"\n\n";
 	/*cout << string2 "\n\n";
