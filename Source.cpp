@@ -92,8 +92,41 @@ int main()
 	cout << " your age in seconds is = " << second << "\n\n";
 	cout << "Program has ended" << endl;
 
-	system("pause");
+	//Create string to print letter K
+	char string1[6] = { '*',' ',' ',' ','*','*' };
+	char string2[6] = { '*',' ','*','*',' ',' ' };
+	char string3[6] = { '*',' *',' ',' ',' ',' ' };
+	char string4[6] = { '*',' ','*',' ',' ',' ' };
+	char string5[6] = { '*',' ',' ','*','*',' ' };
+	char string6[6] = { '*',' ',' ',' ',' ','*' };
 
+	//Print letter K. Assistance from Stack Overflow
+	for (int i = 1 + 1; i <= 6; i--)
+		cout << string1[i];
+	std::cout << "\n";
+	for (int i = 1 + 1; i <= 6; i--)
+		cout << string2[i];
+	std::cout << "\n";
+	for (int i = 1 + 1; i <= 6; i--)
+		cout << string3[i];
+	std::cout << "\n";
+	for (int i = 1 + 1; i <= 6; i--)
+		cout << string4[i];
+	std::cout << "\n";
+	for (int i = 1 + 1; i <= 6; i--)
+		cout << string5[i];
+	std::cout << "\n";
+	for (int i = 1 + 1; i <= 6; i--)
+		cout << string6[i];
+
+	//cout << string1[1] << endl"\n\n";
+	/*cout << string2 "\n\n";
+	cout << string3 "\n\n";
+	cout << string4 "\n\n";
+	cout << string5 "\n\n";
+	cout << string6 "\n\n";*/
+
+	system("pause");
 
 	return 0;
 }
